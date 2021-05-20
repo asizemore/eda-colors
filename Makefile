@@ -1,7 +1,7 @@
 base_dir :=$(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
 
 local_name = edacolors
-tag ?= ann-dev
+tag ?= dev
 run_cmd ?= jupyter notebook
 
 .PHONY: build
