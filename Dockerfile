@@ -4,6 +4,7 @@ FROM jupyter/datascience-notebook:python-3.8.6
 RUN pip install plotly
 RUN pip install -U kaleido
 RUN python3 -m pip install --user --upgrade setuptools wheel
+RUN pip install cmcrameri
 
 
 
